@@ -31,5 +31,28 @@ namespace HSMAPI.Controllers
             }
             return Json(Test,JsonRequestBehavior.AllowGet);
         }
+
+       [HttpPost]
+       public JsonResult SaveSocietyMaster()
+        {
+            var Result = "";
+            SqlConnection con = null;
+            SqlTransaction trans = null;
+            try
+            {
+
+            }
+            catch(Exception ex)
+            {
+
+            }
+            finally
+            {
+
+            }
+                        
+
+            return Json(Result, JsonRequestBehavior.AllowGet);
+        }
     }
 }
